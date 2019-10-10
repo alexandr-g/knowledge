@@ -1,6 +1,4 @@
-# Table of contents
+# Summary
 
-* [Introduction](README.md)
-* [Looking back](index.md)
-* [My Knowledge Wiki 📚](undefined.md)
-
+- [Introduction](README.md)
+- [Looking back](looking-back/index.md)

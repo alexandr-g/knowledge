@@ -1,2 +1,0 @@
-# My Knowledge Wiki 📚
-
