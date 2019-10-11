@@ -4,6 +4,7 @@
 - Coding
   - [Git](coding/git/git.md)
   - [NPM](coding/npm/npm.md)
+  - [JavaScript](coding/js/javascript.md)
 - [Looking back](looking-back/looking-back.md)
   - 2019
     - [2019 September](looking-back/2019/2019-september.md)
