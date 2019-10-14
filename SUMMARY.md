@@ -4,6 +4,7 @@
 - Coding
   - [Git](coding/git/git.md)
   - [NPM](coding/npm/npm.md)
+  - [VIM](coding/vim/vim.md)
   - [JavaScript](coding/js/javascript.md)
   - [Functional programming](coding/fp/fp.md)
 - [Ideas](ideas/ideas.md)
