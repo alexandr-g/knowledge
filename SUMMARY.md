@@ -7,6 +7,7 @@
   - [VIM](coding/vim/vim.md)
   - [tmux](coding/tmux/tmux.md)
   - [JavaScript](coding/js/javascript.md)
+  - [Jest](coding/jest/jest.md)
   - [Functional programming](coding/fp/fp.md)
 - [Ideas](ideas/ideas.md)
 - [Looking back](looking-back/looking-back.md)
