@@ -13,3 +13,7 @@
 I am constantly working to become a better version of myself via good habits, self-improvements and autodidactism.
 
 I'll be happy if this will help you to perform better in one way or another.
+
+## Personal Blog
+
+You can find out more information in my blog https://grischuk.de/
