@@ -7,6 +7,7 @@
   - [VIM](coding/vim/vim.md)
   - [tmux](coding/tmux/tmux.md)
   - [JavaScript](coding/js/javascript.md)
+  - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
   - [Functional programming](coding/fp/fp.md)
 - [Ideas](ideas/ideas.md)
