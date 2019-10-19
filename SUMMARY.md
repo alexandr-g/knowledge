@@ -11,6 +11,7 @@
   - [Jest](coding/jest/jest.md)
   - [Functional programming](coding/fp/fp.md)
 - [Health](health/health.md)
+- [Bikes](bikes/bikes.md)
 - [Ideas](ideas/ideas.md)
 - [Looking back](looking-back/looking-back.md)
   - 2019
