@@ -44,3 +44,5 @@ for (let [key, value] of Object.entries(object)) {
 // "b: 42"
 // order is not guaranteed
 ```
+
+[Object.freeze()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) - prevent object mutations.
