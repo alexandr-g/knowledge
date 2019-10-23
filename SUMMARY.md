@@ -10,6 +10,7 @@
   - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
   - [Functional programming](coding/fp/fp.md)
+  - [Coding Exercises](coding/exercises/exercises.md)
 - [Health](health/health.md)
 - [Bikes](bikes/bikes.md)
 - [Ideas](ideas/ideas.md)
