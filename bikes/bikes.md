@@ -16,3 +16,7 @@ You don't want to buy a bike at all? No problem, you can rent it for a longer us
 - [Vanmoof](https://www.vanmoof.com/de_de/) - is a popular holland modern bike manufacturer. Besides buying a bike from them, you can also rent it for a long time. [Learn more](https://www.vanmoof.com/en_de/subscription) about their subscription program. **Price:** €98 Key Fee (Incl. Tax) + €25 / Month (Incl. Tax)
 
 <img src="https://i.imgur.com/xMpTZJf.png" title="source: imgur.com" />
+
+- [JobRad® (German)](https://www.jobrad.org/arbeitnehmer.html) - Ii is another great option. If you’re working in Germany, your employer can lease a bike for you. And you can ride it whatever you want: to work, in everyday life, during holidays or sports.
+
+<img src="https://i.imgur.com/oJRZugq.png" title="source: imgur.com" />
