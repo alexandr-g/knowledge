@@ -12,6 +12,8 @@
   - [Jest](coding/jest/jest.md)
   - [Functional programming](coding/fp/fp.md)
   - [Coding Exercises](coding/exercises/exercises.md)
+- Learn
+  - [Languages](learn/languages/languages.md)
 - [Health](health/health.md)
 - [Bikes](bikes/bikes.md)
 - [Ideas](ideas/ideas.md)
