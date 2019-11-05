@@ -11,6 +11,7 @@
   - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
   - [Functional programming](coding/fp/fp.md)
+  - [Data Structures](coding/ds/ds.md)
   - [Coding Exercises](coding/exercises/exercises.md)
 - Learn
   - [Languages](learn/languages/languages.md)
