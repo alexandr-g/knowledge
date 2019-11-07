@@ -74,8 +74,13 @@ git commit --amend
 
 ## Git global configurations
 
+#### in ~/.gitconfig
+
+#### To change your Git **username** and **email**
+
 ```bash
-    git checkout -
+git config --global user.name "Alexander Grischuk"
+git config --global user.email [your email address here]
 ```
 
 ### **Edit last local commit message**
