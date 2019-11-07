@@ -83,7 +83,16 @@ git config --global user.name "Alexander Grischuk"
 git config --global user.email [your email address here]
 ```
 
-### **Edit last local commit message**
+#### Enable git pull use rebase by default
+
+```bash
+git config --global pull.rebase true
+```
+
+is equivalent to running `git pull --rebase` every time.
+
+#### ~/.gitignore_global
+
 #### **Ignore IDEA files globally**
 
 ```bash
