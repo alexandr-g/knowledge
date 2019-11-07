@@ -7,65 +7,69 @@
 Download the latest commits
 
 ```bash
-    git remote update -p
+git remote update -p
 ```
 
 Update the local branch
 
 ```bash
-    git merge --ff-only @{u}
+git merge --ff-only @{u}
 ```
 
 If the above fails with a complaint that the local branch has diverged:
 
 ```bash
-    git rebase -p @{u}
-    git reset --hard HEAD~1
-    git reset HEAD~1
+git rebase -p @{u}
+git reset --hard HEAD~1
+git reset HEAD~1
 ```
 
 #### **Reset**
 
 ```bash
-    git reset HEAD~1
+git reset HEAD~1
 ```
 
 where `~1` is a number of commits from HEAD
 
 ```bash
-    # hard reset (loosing files/changes)
-    git reset --hard HEAD~1
+# hard reset (loosing files/changes)
+git reset --hard HEAD~1
 ```
 
 #### **Rebase**
 
 ```bash
-    # on a remote branch
-    git pull --rebase
+# on a remote branch
+git pull --rebase
 
-    # on a master
-    git pull --rebase origin master
+# on a master
+git pull --rebase origin master
 ```
 
 #### **Stash**
 
 ```bash
-    # preview last stashed changes
-    git stash show -p stash@{0}
-```
-
-#### **Ignore IDEA files globally**
-
-```bash
-    echo ".idea" > ~/.gitignore_global
-
-    git config --global core.excludesfile ~/.gitignore_global
+# preview last stashed changes
+git stash show -p stash@{0}
 ```
 
 #### **Checkout unwanted files**
 
 ```bash
-    git checkout -- .
+git checkout -- .
+```
+
+#### **Checkout to previous branch**
+
+```bash
+git checkout -
+```
+
+### **Edit last local commit message**
+
+```bash
+git commit --amend
 ```
 
 #### **Checkout to previous branch**
@@ -75,9 +79,12 @@ where `~1` is a number of commits from HEAD
 ```
 
 ### **Edit last local commit message**
+#### **Ignore IDEA files globally**
 
 ```bash
-    git commit --amend
+echo ".idea" > ~/.gitignore_global
+
+git config --global core.excludesfile ~/.gitignore_global
 ```
 
 #### **How to resolve conflicts in yarn.lock**
@@ -85,22 +92,22 @@ where `~1` is a number of commits from HEAD
 [https://github.com/yarnpkg/yarn/issues/1776#issuecomment-269539948](https://github.com/yarnpkg/yarn/issues/1776#issuecomment-269539948)
 
 ```bash
-    git rebase origin/master
+git rebase origin/master
 ```
 
 When the first conflict arises, I checkout the yarn.lock then re-perform the installation
 
 ```bash
-    git checkout origin/master -- yarn.lock
+git checkout origin/master -- yarn.lock
 
-    yarn
+yarn
 ```
 
 This generates a new yarn.lock based on the origin/master version of yarn.lock, but including the changes I made to my package.json. Then it's just a matter of:
 
 ```bash
-    git add yarn.lock
-    git rebase --continue
+git add yarn.lock
+git rebase --continue
 ```
 
 #### **Advanced git**
