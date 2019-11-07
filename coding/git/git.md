@@ -72,7 +72,7 @@ git checkout -
 git commit --amend
 ```
 
-#### **Checkout to previous branch**
+## Git global configurations
 
 ```bash
     git checkout -
