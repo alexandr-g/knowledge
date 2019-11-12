@@ -24,6 +24,18 @@ git reset --hard HEAD~1
 git reset HEAD~1
 ```
 
+### Add
+
+#### [Co authored](https://blog.github.com/2018-01-29-commit-together-with-co-authors/)
+
+Adds co-author to your commit message. Handy for pair programming.
+
+```bash
+Commit message
+
+Co-authored-by: Joel Califa <602352+califa@users.noreply.github.com>
+```
+
 #### Reset
 
 ```bash
