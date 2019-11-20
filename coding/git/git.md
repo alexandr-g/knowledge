@@ -84,6 +84,16 @@ git checkout -
 git commit --amend
 ```
 
+## Commit
+
+#### Empty commit
+
+Is useful to re-trigger CI pipeline or any other cloud integrations.
+
+```bash
+git commit --allow-empty -m "Trigger something"
+```
+
 ## Git global configurations
 
 #### in ~/.gitconfig
