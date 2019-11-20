@@ -7,6 +7,7 @@
   - [Yarn](coding/yarn/yarn.md)
   - [VIM](coding/vim/vim.md)
   - [tmux](coding/tmux/tmux.md)
+  - [Terminal](coding/terminal/terminal.md)
   - [JavaScript](coding/js/javascript.md)
   - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
