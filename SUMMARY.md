@@ -23,3 +23,4 @@
   - 2019
     - [September](looking-back/2019/2019-september.md)
     - [October](looking-back/2019/2019-october.md)
+    - [November](looking-back/2019/2019-november.md)
