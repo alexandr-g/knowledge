@@ -8,6 +8,7 @@
   - [VIM](coding/vim/vim.md)
   - [tmux](coding/tmux/tmux.md)
   - [Terminal](coding/terminal/terminal.md)
+  - [HTML](coding/html/html.md)
   - [JavaScript](coding/js/javascript.md)
   - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
