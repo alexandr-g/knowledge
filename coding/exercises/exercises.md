@@ -37,6 +37,7 @@ function reverse(str) {
 
 ```js
 // For a given number of elements display fibonacci sequence
+// Equation: Fn = (Fn-1) + (Fn-2)
 
 function fib(n) {
   // solution #1: using for loop
