@@ -32,3 +32,29 @@ function reverse(str) {
   return str.split('').reduce((rev, char) => char + rev, '')
 }
 ```
+
+## Fibonacci Sequence
+
+```js
+// For a given number of elements display fibonacci sequence
+
+function fib(n) {
+  // solution #1: using for loop
+  const result = [0, 1]
+
+  if (n < 2) {
+    return n
+  }
+
+  for (let i = 2; i <= n; i++) {
+    const a = result[i - 1]
+    const b = result[i - 2]
+
+    result.push(a + b)
+  }
+
+  return result
+}
+
+console.log(fib(20))
+```
