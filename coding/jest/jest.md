@@ -33,7 +33,7 @@ describe('do some crazy stuff with timers.', () => {
 
 ### Verify that function was called with multiple arguments
 
-`.toHaveBeenCalledWith(arg1, arg2, ...)`
+[`.toHaveBeenCalledWith(arg1, arg2, ...)`](https://jestjs.io/docs/en/expect#tohavebeencalledwitharg1-arg2-)
 
 Also available under the alias: `.toBeCalledWith()`
 
