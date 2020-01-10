@@ -4,7 +4,7 @@ This section is dedicated to retrospective **over my life**. I'm documenting per
 
 I'm trying to document at least one **highlight** of the month. This might not make sense to everyone, consider it more like a life journal.
 
-## 2019
+## [2019](2019/2019.md)
 
 - [September](2019/2019-september.md) - Visited [Full Stack Fest 2019](https://2019.fullstackfest.com/) conference in Spain. Find out details in [Full Stack Fest 2019 conference in Spain](https://grischuk.de/full-stack-fest-2019-conference-in-spain)
 - [October](2019/2019-october.md) - Got married :D
