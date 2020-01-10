@@ -21,7 +21,7 @@
 - [Bikes](bikes/bikes.md)
 - [Ideas](ideas/ideas.md)
 - [Looking back](looking-back/looking-back.md)
-  - 2019
+  - [2019](looking-back/2019/2019.md)
     - [September](looking-back/2019/2019-september.md)
     - [October](looking-back/2019/2019-october.md)
     - [November](looking-back/2019/2019-november.md)
