@@ -30,3 +30,31 @@ describe('do some crazy stuff with timers.', () => {
     expect(callback).toHaveBeenCalledTimes(1)
   })
 ```
+
+### Verify that function was called with multiple arguments
+
+`.toHaveBeenCalledWith(arg1, arg2, ...)`
+
+Also available under the alias: `.toBeCalledWith()`
+
+### Verify that the same function was called multiple times with different arguments
+
+```javascript
+it('should be able to change access rights.', () => {
+  expect(onUpdateAccess).not.toBeCalled()
+
+  const newAccess = {
+    ...report.access,
+    view: {
+      type: 'user',
+      id: '3'
+    }
+  }
+
+  component.find(Rights).prop('onChange')(newAccess)
+
+  expect(onUpdateAccess).toBeCalledTimes(2)
+  expect(onUpdateAccess).toBeCalledWith('edit', newAccess.edit)
+  expect(onUpdateAccess).toBeCalledWith('view', newAccess.view)
+})
+```
