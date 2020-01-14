@@ -27,3 +27,8 @@ The interface doest not give any specific details about how something should be 
 ## Runtime Complexity
 
 Describes the performance of the algorithm. Ref [Time complexity](https://en.wikipedia.org/wiki/time_complexity)
+
+## Big O
+
+- `N / O(n)` - 'linear' runtime
+- `N^2` / `(n\*n)` / `O(n^2)` - N-square or quadratic runtime
