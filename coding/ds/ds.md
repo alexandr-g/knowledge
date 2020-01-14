@@ -23,3 +23,7 @@ The interface doest not give any specific details about how something should be 
 |                   |  Hash Map / Hash Table  |
 |      Vehicle      |        Golf Cart        |
 |                   |         Bicycle         |
+
+## Runtime Complexity
+
+Describes the performance of the algorithm. Ref [Time complexity](https://en.wikipedia.org/wiki/time_complexity)
