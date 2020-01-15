@@ -23,33 +23,33 @@ const Authentication = () => {
   }
 
   return (
-    <div className='auth-page'>
-      <div className='container page'>
-        <div className='row'>
-          <div className='col-md-6 offset-md-3 col-xs-12'>
-            <h1 className='text-xs-center'>Sign in</h1>
-            <p className='text-xs-center'>
-              <Link to='/register'>Need an account?</Link>
+    <div className="auth-page">
+      <div className="container page">
+        <div className="row">
+          <div className="col-md-6 offset-md-3 col-xs-12">
+            <h1 className="text-xs-center">Sign in</h1>
+            <p className="text-xs-center">
+              <Link to="/register">Need an account?</Link>
             </p>
             <form onSubmit={handleSubmit}>
               <fieldset>
-                <fieldset className='form-group'>
+                <fieldset className="form-group">
                   <input
-                    type='email'
-                    className='form-control form-control-lg'
-                    placeholder='Email'
+                    type="email"
+                    className="form-control form-control-lg"
+                    placeholder="Email"
                     ref={emailRef}
                   />
                   <input
-                    type='password'
-                    className='form-control form-control-lg'
-                    placeholder='Password'
+                    type="password"
+                    className="form-control form-control-lg"
+                    placeholder="Password"
                     ref={passwordRef}
                   />
                 </fieldset>
                 <button
-                  className='btn btn-lg btn-primary pull-xs-right'
-                  type='submit'
+                  className="btn btn-lg btn-primary pull-xs-right"
+                  type="submit"
                 >
                   Sign in
                 </button>
@@ -63,4 +63,26 @@ const Authentication = () => {
 }
 
 export default Authentication
+```
+
+## Create React App
+
+### [Building a custom template](https://create-react-app.dev/docs/custom-templates/)
+
+### Use Create React App local template from your template root folder
+
+```bash
+yarn create react-app demo --template file:.
+```
+
+### Create React App local template folder structure and **gitignore**
+
+```jsx
+README.md
+template.json
+package.json
+template / README.md
+gitignore // gitignore inside template folder should be without "." in front
+public / index.html
+src / index.js
 ```
