@@ -146,6 +146,32 @@ git add yarn.lock
 git rebase --continue
 ```
 
+## Release
+
+### Create a release tag
+
+```bash
+git tag <tagname>
+```
+
+### Push all tags
+
+```bash
+git push origin --tags
+```
+
+### Push a _single_ tag
+
+```bash
+git push origin <tag>
+```
+
+### List all tags
+
+```bash
+git tag
+```
+
 #### Advanced git
 
 - `git-reflog` - Manage reflog information
