@@ -28,3 +28,17 @@ sudo npm rm --global foo # This will uninstall the package.
 ```bash
 npm ls --global foo
 ```
+
+## NPM package
+
+### Increase version
+
+```sh
+npm version patch
+```
+
+### Publish
+
+```sh
+npm publish
+```
