@@ -86,3 +86,11 @@ gitignore // gitignore inside template folder should be without "." in front
 public / index.html
 src / index.js
 ```
+
+## How to create custom Create React App (CRA) templates
+
+I created a step by step guide on how to create your own templates. Check it
+
+[View on Medium](https://medium.com/@alexgrischuk/how-to-create-custom-create-react-app-cra-templates-73a5196edeb)
+
+[View blog post](https://grischuk.de/how-to-create-custom-create-react-app-cra-templates)
