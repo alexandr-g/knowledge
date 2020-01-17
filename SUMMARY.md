@@ -11,6 +11,7 @@
   - [HTML](coding/html/html.md)
   - [Node](coding/node/node.md)
   - [JavaScript](coding/js/javascript.md)
+    --[Types](coding/js/types.md)
   - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
   - [Functional programming](coding/fp/fp.md)
