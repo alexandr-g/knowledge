@@ -31,7 +31,7 @@ npm ls --global foo
 
 ## NPM package
 
-### Increase version
+### Increase patch version
 
 ```sh
 npm version patch
@@ -41,4 +41,18 @@ npm version patch
 
 ```sh
 npm publish
+```
+
+## Global installation
+
+### List all the globally installed packages
+
+```sh
+npm list -g --depth 0
+```
+
+### Uninstall globally installed package
+
+```sh
+npm -g uninstall <module_name>
 ```
