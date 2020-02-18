@@ -135,6 +135,14 @@ ssh-keygen -t rsa -b 4096
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
+#### UseKeychain: do not re-enter password while commiting/clonning
+
+Add following to the `~/.ssh/config`
+
+```bash
+Host *
+    UseKeychain yes
+```
 
 #### How to resolve conflicts in yarn.lock
 
