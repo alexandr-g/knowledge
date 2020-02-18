@@ -123,6 +123,19 @@ echo ".idea" > ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ```
 
+#### Creating a SSH Public Key on OSX
+
+```bash
+ssh-keygen -t rsa -b 4096
+```
+
+#### Copy public SSH key and add it to the GitHub
+
+```bash
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+
 #### How to resolve conflicts in yarn.lock
 
 [https://github.com/yarnpkg/yarn/issues/1776#issuecomment-269539948](https://github.com/yarnpkg/yarn/issues/1776#issuecomment-269539948)
