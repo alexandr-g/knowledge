@@ -44,3 +44,9 @@ for (let [key, value] of Object.entries(object)) {
 ```
 
 [Object.freeze()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) - prevent object mutations.
+
+### console.log() with css styles
+
+```js
+console.log('%cyou are awesome :)', 'color: white; font-size: 46px')
+```
