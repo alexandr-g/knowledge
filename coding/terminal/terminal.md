@@ -1,5 +1,7 @@
 # Common terminal commands
 
+## General
+
 ### return the last command
 
 ```bash
@@ -23,6 +25,14 @@ chmod g+w
 ```bash
 chown
 ```
+
+### check folder size
+
+```bash
+du -h Gigabyte <folder_name>
+```
+
+-h "Human-readable" output. Use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.
 
 ## Setup
 
