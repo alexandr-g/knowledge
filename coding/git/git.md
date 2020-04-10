@@ -36,6 +36,14 @@ Commit message
 Co-authored-by: Joel Califa <602352+califa@users.noreply.github.com>
 ```
 
+### Push
+
+In order to not override someone else commits(with force) in remote repository use:
+
+```bash
+git push --force-with-lease
+```
+
 #### Reset
 
 ```bash
