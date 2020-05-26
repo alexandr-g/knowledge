@@ -5,6 +5,7 @@
 - [Mocking Node modules](https://jestjs.io/docs/en/manual-mocks#mocking-node-modules)
 - [mockFn.mockClear](https://jestjs.io/docs/en/mock-function-api.html#mockfnmockclear)
 - [mockFn.mockReset](https://jestjs.io/docs/en/mock-function-api.html#mockfnmockreset)
+- [expect.anything()](https://jestjs.io/docs/en/expect#expectanything)
 
 ### Asynchronous or time-based events (timers)
 
@@ -47,8 +48,8 @@ it('should be able to change access rights.', () => {
     ...report.access,
     view: {
       type: 'user',
-      id: '3'
-    }
+      id: '3',
+    },
   }
 
   component.find(Rights).prop('onChange')(newAccess)
