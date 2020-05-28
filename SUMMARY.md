@@ -14,6 +14,7 @@
     - [Types](coding/js/types.md)
   - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
+  - [FLow](coding/flow/flow.md)
   - [Functional programming](coding/fp/fp.md)
   - [Data Structures](coding/ds/ds.md)
   - [Coding Exercises](coding/exercises/exercises.md)
