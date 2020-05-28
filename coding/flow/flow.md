@@ -17,3 +17,33 @@ type PropsT = {|
 An `ApiPropsT` represents props that are being passed to the React component. A `PropsT` represents props that are being created **inside** the React component.
 
 `PropsT` usually contains spread of `ApiPropsT`.
+
+Example:
+
+```jsx
+type ApiPropsT = {|
+  onChange: (user: UserT) => void,
+  user: UserT,
+  userEndpoint: string,
+  registration: boolean,
+|}
+
+type PropsT = {|
+  ...ApiPropsT,
+
+  style: StyleT,
+|}
+
+function UserDetails({
+  user,
+  style,
+  registration,
+  userEndpoint,
+  onChange,
+}: PropsT) {
+  // hooks and state values
+
+  return (/* some JSX*/)
+
+})
+```
