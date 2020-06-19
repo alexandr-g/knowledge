@@ -12,6 +12,7 @@
   - [Node](coding/node/node.md)
   - [JavaScript](coding/js/javascript.md)
     - [Types](coding/js/types.md)
+  - [TypeScript](coding/ts/typescript.md)
   - [React](coding/react/react.md)
   - [Jest](coding/jest/jest.md)
   - [FLow](coding/flow/flow.md)
