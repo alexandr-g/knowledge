@@ -29,3 +29,7 @@ const y = 'hello world'
  * and no other possible value
  */
 ```
+
+### Reference
+
+All the code examples are coming from [Mike's TypeScript Fundamentals Course](https://github.com/mike-works/typescript-fundamentals)
