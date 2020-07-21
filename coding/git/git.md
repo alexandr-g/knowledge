@@ -102,6 +102,16 @@ Is useful to re-trigger CI pipeline or any other cloud integrations.
 git commit --allow-empty -m "Trigger something"
 ```
 
+## Branch
+
+### Rename a local Git branch
+
+#### Rename a current branch
+
+```bash
+git branch -m <newname>
+```
+
 ## Git global configurations
 
 #### in ~/.gitconfig
