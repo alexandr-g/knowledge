@@ -112,6 +112,12 @@ git commit --allow-empty -m "Trigger something"
 git branch -m <newname>
 ```
 
+#### Rename a brach while pointed to any branch
+
+```bash
+git branch -m <oldname> <newname>
+```
+
 ## Git global configurations
 
 #### in ~/.gitconfig
