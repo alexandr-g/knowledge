@@ -20,6 +20,7 @@
   - [Data Structures](coding/ds/ds.md)
   - [Coding Exercises](coding/exercises/exercises.md)
   - [Design Systems](coding/design-system/design-system.md)
+  - [VSCode](coding/vscode/vscode.md)
 - Learn
   - [Languages](learn/languages/languages.md)
 - [Health](health/health.md)
