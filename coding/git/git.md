@@ -1,6 +1,6 @@
 # Git
 
-#### How to avoid merge commits
+## How to avoid merge commits
 
 [Why](https://stackoverflow.com/questions/6406762/why-am-i-merging-remote-tracking-branch-origin-develop-into-develop)
 
@@ -94,7 +94,7 @@ git commit --amend
 
 ## Commit
 
-#### Empty commit
+### Empty commit
 
 Is useful to re-trigger CI pipeline or any other cloud integrations.
 
@@ -120,7 +120,7 @@ git branch -m <oldname> <newname>
 
 ## Git global configurations
 
-#### in ~/.gitconfig
+### in ~/.gitconfig
 
 #### To change your Git **username** and **email**
 
@@ -215,6 +215,20 @@ git push origin <tag>
 
 ```bash
 git tag
+```
+
+## Clean up
+
+### clean unreachable object(sometimes speed up .git)
+
+```bash
+git prune --dry-run
+```
+
+### clean outdated branches
+
+```bash
+git fetch --prune
 ```
 
 #### Advanced git
