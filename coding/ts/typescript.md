@@ -121,3 +121,14 @@ const logNumber: (i: number) => void = (i: number) => {
     console.log(i)
 };
 ```
+
+#### Type inference
+
+If declaration and initialization are done on the same line, TypeScript will figure our the type for us
+
+```ts
+let apples = 5 // inferred type ’string’
+
+let apples
+apples = 5 // inferred type ‘any'
+```
