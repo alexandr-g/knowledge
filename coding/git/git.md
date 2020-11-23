@@ -147,6 +147,12 @@ echo ".idea" > ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ```
 
+### Create a new `.gitignore` file fetched from the GitHub repo for a "node" js app
+
+```bash
+npx gitignore node
+```
+
 #### Creating a SSH Public Key on OSX
 
 ```bash
