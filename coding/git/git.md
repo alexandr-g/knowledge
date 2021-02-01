@@ -74,6 +74,12 @@ git pull --rebase origin master
 git stash show -p stash@{0}
 ```
 
+Create named stash with adding files with hunks preview
+
+```bash
+git stash push -p -m "my awesome config"
+```
+
 #### Checkout unwanted files
 
 ```bash
