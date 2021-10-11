@@ -98,6 +98,14 @@ git checkout -
 git commit --amend
 ```
 
+#### Git log
+
+To view a git log of just one user's commits:
+
+```bash
+git log --author="Alex"
+```
+
 ## Commit
 
 ### Empty commit
@@ -231,7 +239,7 @@ git tag
 
 ## Clean up
 
-### clean unreachable object(sometimes speed up .git)
+### clean unreachable object (sometimes speeds up .git)
 
 ```bash
 git prune --dry-run
