@@ -3,6 +3,7 @@
 ## Books
 
 - [Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
+- [Grokking Simplicity by Eric Normand](https://www.manning.com/books/grokking-simplicity)
 
 ## Libraries
 
