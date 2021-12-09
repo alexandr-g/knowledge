@@ -59,3 +59,62 @@ function fib(n) {
 
 console.log(fib(20))
 ```
+
+## Invert a binary tree in JavaScript
+
+```js
+// given a binary tree node swap its nodes values
+
+/*
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+
+      4       
+   /   \      
+  2     7
+ / \   / \
+1   3 6   9
+
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+
+*/
+
+let node = {
+  value: 1,
+  left: {
+    value: 2,
+    left: {value: 4},
+    right: {value: 5}
+  },
+  right: {
+    value: 3,
+    left: {value: 6},
+    right: {value: 7}
+  }
+}
+
+function invertTree(node) {
+  if (!node) return
+
+  let left = node.left
+  let right = node.right
+
+  node.right = left
+  node.left = right
+    
+  invertTree(left)
+  invertTree(right)
+
+  return node
+}
+
+console.log('--->inverted tree:', invertTree(node))
+```
