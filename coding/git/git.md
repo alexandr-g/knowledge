@@ -237,6 +237,10 @@ git push origin <tag>
 git tag
 ```
 
+## Clone
+
+[Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/)
+
 ## Clean up
 
 ### clean unreachable object (sometimes speeds up .git)
