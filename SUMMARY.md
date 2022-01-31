@@ -26,6 +26,7 @@
 - [Health](health/health.md)
 - [Bikes](bikes/bikes.md)
 - [Ideas](ideas/ideas.md)
+- [Journals/Wiki](journals/wikis.md)
 - [Looking back](looking-back/looking-back.md)
   - [2019](looking-back/2019/2019.md)
     - [September](looking-back/2019/2019-september.md)
