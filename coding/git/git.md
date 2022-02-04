@@ -151,6 +151,12 @@ git config --global pull.rebase true
 
 is equivalent to running `git pull --rebase` every time.
 
+#### [Set the upstream automatically on push](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushdefault)
+
+```bash
+git config --global push.default current
+```
+
 #### ~/.gitignore_global
 
 #### Ignore IDEA files globally
