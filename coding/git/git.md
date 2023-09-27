@@ -191,6 +191,7 @@ Add following to the `~/.ssh/config`
 
 ```bash
 Host *
+    AddKeysToAgent yes
     UseKeychain yes
 ```
 
