@@ -195,6 +195,14 @@ Host *
     UseKeychain yes
 ```
 
+#### Add private key to keychain
+
+```bash
+ssh-add --apple-use-keychain ~/.ssh/<private_key>
+```
+
+##### Make sure `AddKeysToAgent` is set to `yes` in `~/.ssh/config` for this to work
+
 #### How to resolve conflicts in yarn.lock
 
 [https://github.com/yarnpkg/yarn/issues/1776#issuecomment-269539948](https://github.com/yarnpkg/yarn/issues/1776#issuecomment-269539948)
