@@ -81,4 +81,5 @@ Suppose your local package is located in a directory called my-local-package, wh
   "dependencies": {
     "my-local-package": "file:../my-local-package"
   }
-}```
+}
+```
