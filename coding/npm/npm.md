@@ -1,8 +1,8 @@
 # NPM
 
-## Testing local package
+## How to test local package
 
-#### For Example:
+### For Example
 
 ```bash
 cd ~/projects/node-redis
@@ -14,7 +14,7 @@ cd ~/projects/node-bloggy
 npm link redis # links to your local redis
 ```
 
-#### To reinstall from your package.json:
+#### To reinstall from your package.json
 
 ```bash
 npm unlink redis
@@ -23,7 +23,7 @@ npm install
 sudo npm rm --global foo # This will uninstall the package.
 ```
 
-#### To check whether a package is installed, the `npm ls` command can be used:
+#### To check whether a package is installed, the `npm ls` command can be used
 
 ```bash
 npm ls --global foo
