@@ -46,9 +46,9 @@ Run your project and test the changes.
 
 You can reference a local package directly in the `package.json` file of your project using the file: protocol. Here's how you can do this:
 
-In the directory of the local package, run npm pack or yarn pack to create a tarball of the package.
+In the directory of the local package, run `npm pack` or `yarn pack` to create a tarball of the package.
 
-In the directory of your project, open the `package.json` file and add a dependency entry for the local package using the file: protocol. For example:
+In the directory of your project, open the `package.json` file and add a dependency entry for the local package using the `file:` protocol. For example:
 
 ```json
 {
