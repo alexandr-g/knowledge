@@ -2,7 +2,7 @@
 
 ## A month general
 
-Working & Learning. Writing more [for my blog](https://grischuk.de/). Got **8 articles** written to the blog compared to 2 articles in October. I started to invest some time into improving the blog project, fighting legacy. Changed production deployments to Zeit Now.
+Working & Learning. Writing more [for my blog](https://oleks.pro). Got **8 articles** written to the blog compared to 2 articles in October. I started to invest some time into improving the blog project, fighting legacy. Changed production deployments to Zeit Now.
 
 ## Communication
 

@@ -1,6 +1,6 @@
 # My Knowledge Wiki 📚
 
-## Available here - https://alexgrischuk.gitbook.io/wiki/
+## Available here - <https://alexgrischuk.gitbook.io/wiki/>
 
 ## **Motivation**
 
@@ -16,6 +16,6 @@ I'll be happy if this will help you to perform better in one way or another.
 
 ## Personal Blog
 
-You can find out more information in my blog https://grischuk.de/
+You can find out more information in my blog <https://oleks.pro>
 
 #### This wiki is inspired by [Nikita Voloboev](https://github.com/nikitavoloboev)
